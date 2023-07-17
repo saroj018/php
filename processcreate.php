@@ -45,6 +45,7 @@ if($connect->query($sql)===TRUE){
     <br>
     <a href="index.php">User List</a>
     <?php
+    header('Location:index.php');
     exit();
 }
 else{
