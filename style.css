@@ -1,0 +1,70 @@
+th{
+   
+    background: yellow;
+    color:green ;
+}
+td{
+    background:aqua;
+    text-align:center;
+}
+
+table{
+    margin-left: 53%;
+}
+
+button{
+    cursor: pointer;
+}
+
+.main{
+    height: auto;
+    width: 400px;
+    margin-top: 100%;
+    margin-left: 20%;
+}
+
+.head{
+    text-align: center;
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+label{
+    font-size: 20px;
+    display: block;
+    font-weight: 300;
+    margin: 5px 0;
+}
+
+.password{
+    margin: 20px 0;
+}
+input{
+    height: 40px;
+    width: 90%;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.btn{
+    padding: 5px 10px;
+    width: 90%;
+    cursor: pointer;
+    height: 50px;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.contaner{
+    padding-left: 22px;
+}
+
+.para{
+    font-size: 15px;
+    color: blue;
+    text-align: left;
+}
+
+legend{
+    font-size: 18px;
+}
