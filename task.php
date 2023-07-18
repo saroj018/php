@@ -52,24 +52,24 @@
             <div class='contaner'>
             <div>
                 <label htmlFor="">Name</label>
-                <input type="text" placeholder="Enter your Name" />
+                <input required type="text" placeholder="Enter your Name" />
             </div>
             <div class='password'>
                 <label htmlFor="">Address</label>
-                <input type="text" placeholder="Enter your Address" />
+                <input required type="text" placeholder="Enter your Address" />
             </div>
             <div class='password'>
                 <label htmlFor="">Email</label>
-                <input type="email" placeholder="Enter your Email" />
+                <input required type="email" placeholder="Enter your Email" />
             </div>
 
             <div class='password'>
                 <label htmlFor="">Password</label>
-                <input type="password" placeholder="Enter your Password" />
+                <input required type="password" placeholder="Enter your Password" />
             </div>
             <div class='password'>
                 <label htmlFor="">Contact</label>
-                <input type="number" placeholder="Enter your Number" />
+                <input required type="number" placeholder="Enter your Number" />
             </div>
 
             <button class='btn'>Add</button>
