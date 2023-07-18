@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+
 <div class='main'>
     <fieldset>
         <legend>Fill the Form</legend>
@@ -42,4 +35,78 @@
     </fieldset>
 
 </div>
-</body>
+
+<style>
+    th{
+   
+   background: yellow;
+   color:green ;
+}
+td{
+   background:aqua;
+   text-align:center;
+}
+
+table{
+   margin-left: 53%;
+}
+
+button{
+   cursor: pointer;
+}
+
+.main{
+   height: auto;
+   width: 400px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+.head{
+   text-align: center;
+   font-size: 40px;
+   margin: 15px 0;
+}
+
+label{
+   font-size: 20px;
+   display: block;
+   font-weight: 300;
+   margin: 5px 0;
+}
+
+.password{
+   margin: 20px 0;
+}
+input{
+   height: 40px;
+   width: 90%;
+   padding: 0 10px;
+   font-size: 15px;
+}
+
+.btn{
+   padding: 5px 10px;
+   width: 90%;
+   cursor: pointer;
+   height: 50px;
+   font-size: 20px;
+   margin: 15px 0;
+}
+
+.contaner{
+   padding-left: 22px;
+}
+
+.para{
+   font-size: 15px;
+   color: blue;
+   text-align: left;
+}
+
+legend{
+   font-size: 18px;
+}
+</style>
